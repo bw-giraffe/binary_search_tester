@@ -1,6 +1,8 @@
 def binary_search(searchArray, searchElement)
   min = 0
   max = searchArray.length - 1
+   p "HIII"
+   puts "HELLO"
 
   while (min <= max)
     mid = (min + max) / 2 | 0
